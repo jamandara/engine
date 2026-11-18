@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mbu-id/engine/common"
+	"github.com/jamandara/engine/common"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"go.uber.org/zap"
 )

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mbu-id/engine/validate"
+	"github.com/jamandara/engine/validate"
 	"github.com/stretchr/testify/assert"
 )
 

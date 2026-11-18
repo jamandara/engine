@@ -18,7 +18,7 @@ A robust MongoDB client library wrapper based on the official [mongo-driver](htt
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/ds/mongo
+go get github.com/jamandara/engine/ds/mongo
 ```
 
 ## Quick Start
@@ -41,7 +41,7 @@ package main
 
 import (
     "os"
-    "github.com/mbu-id/engine/ds/mongo"
+    "github.com/jamandara/engine/ds/mongo"
     "go.uber.org/zap"
 )
 
@@ -160,7 +160,7 @@ Retrieves a list of documents with pagination, sorting, and filtering.
 - **query**: Optional extra filters.
 
 ```go
-import "github.com/mbu-id/engine/common"
+import "github.com/jamandara/engine/common"
 
 opts := &common.QueryOption{
     Limit: 20,

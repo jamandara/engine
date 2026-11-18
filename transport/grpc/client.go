@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mbu-id/engine/common"
+	"github.com/jamandara/engine/common"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

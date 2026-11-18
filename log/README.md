@@ -13,7 +13,7 @@ The `engine/log` package provides a standardized logging interface built on top 
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/log
+go get github.com/jamandara/engine/log
 ```
 
 ## Quick Start
@@ -26,7 +26,7 @@ Use `NewLogger` to create a standard logger instance. This is typically handled 
 package main
 
 import (
-    "github.com/mbu-id/engine/log"
+    "github.com/jamandara/engine/log"
     "go.uber.org/zap"
 )
 

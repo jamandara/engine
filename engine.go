@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mbu-id/engine/log"
+	"github.com/jamandara/engine/log"
 	"go.uber.org/zap"
 )
 

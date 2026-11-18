@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/mbu-id/engine/ds/redis"
+	"github.com/jamandara/engine/ds/redis"
 )
 
 type RedisServiceRegistry struct {

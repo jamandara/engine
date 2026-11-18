@@ -10,7 +10,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/websocket"
-	"github.com/mbu-id/engine/common"
+	"github.com/jamandara/engine/common"
 	"go.uber.org/zap"
 )
 

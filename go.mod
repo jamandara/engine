@@ -1,4 +1,4 @@
-module github.com/mbu-id/engine
+module github.com/jamandara/engine
 
 go 1.25.0
 

@@ -13,7 +13,7 @@ A scalable, real-time WebSocket server implementation designed for distributed s
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/transport/ws
+go get github.com/jamandara/engine/transport/ws
 ```
 
 ## Usage

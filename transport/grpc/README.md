@@ -12,7 +12,7 @@ A gRPC server wrapper that integrates service discovery (via Redis) and structur
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/transport/grpc
+go get github.com/jamandara/engine/transport/grpc
 ```
 
 ## Quick Start
@@ -25,7 +25,7 @@ package main
 import (
     "context"
     "time"
-    "github.com/mbu-id/engine/transport/grpc"
+    "github.com/jamandara/engine/transport/grpc"
     "go.uber.org/zap"
     pb "github.com/your/repo/proto"
 )

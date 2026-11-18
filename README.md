@@ -1,6 +1,6 @@
-# mbu-id/engine
+# jamandara/engine
 
-**Engine** is a powerful, production-ready framework for rapidly developing Go microservices at [mbu-id](https://github.com/mbu-id).
+**Engine** is a powerful, production-ready framework for rapidly developing Go microservices at [jamandara](https://github.com/jamandara).
 
 Engine accelerates microservice delivery by providing robust, integrated libraries for essential infrastructure, including databases (MongoDB, PostgreSQL, Redis), message brokers (RabbitMQ), and transport protocols (REST, gRPC). Its built-in lifecycle management, structured logging, and unified architecture eliminate boilerplate and complexity.
 
@@ -50,10 +50,10 @@ import (
 
     "github.com/joho/godotenv"
 
-    "github.com/mbu-id/engine"
-    "github.com/mbu-id/engine/ds/mongo"
-    "github.com/mbu-id/engine/broker/rabbitmq"
-    "github.com/mbu-id/engine/transport/rest"
+    "github.com/jamandara/engine"
+    "github.com/jamandara/engine/ds/mongo"
+    "github.com/jamandara/engine/broker/rabbitmq"
+    "github.com/jamandara/engine/transport/rest"
 
     "github.com/yourrepo/service/proto"
 )

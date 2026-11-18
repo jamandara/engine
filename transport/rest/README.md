@@ -17,7 +17,7 @@ A feature-rich HTTP/REST server wrapper built on top of [gorilla/mux](https://gi
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/transport/rest
+go get github.com/jamandara/engine/transport/rest
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ package main
 import (
     "context"
     "os"
-    "github.com/mbu-id/engine/transport/rest"
+    "github.com/jamandara/engine/transport/rest"
     "go.uber.org/zap"
 )
 
@@ -100,7 +100,7 @@ The `Bind` method is a powerful helper that handles:
 4.  **Validation**: Automatically validates the struct using the `validate` package tags.
 
 ```go
-import "github.com/mbu-id/engine/validate"
+import "github.com/jamandara/engine/validate"
 
 type CreateUserRequest struct {
     Name  string `json:"name" valid:"required|alpha_space"`
@@ -142,7 +142,7 @@ The `Bind` method supports `common.QueryOption` directly for list endpoints, aut
 The `Bind` method supports `common.QueryOption` directly. It is recommended to embed it in your request struct.
 
 ```go
-import "github.com/mbu-id/engine/common"
+import "github.com/jamandara/engine/common"
 
 type ListUserRequest struct {
     common.QueryOption

@@ -12,7 +12,7 @@ A flexible, tag-based struct validator and assertion library.
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/validate
+go get github.com/jamandara/engine/validate
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ func ValidateUser(req UserRequest) {
 You can use the `validate` (or alias `assert` depending on import) functions directly.
 
 ```go
-import "github.com/mbu-id/engine/validate"
+import "github.com/jamandara/engine/validate"
 
 if !validate.IsEmail("test@example.com") {
     // handle error

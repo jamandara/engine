@@ -18,7 +18,7 @@ A robust RabbitMQ client wrapper using [amqp091-go](https://github.com/rabbitmq/
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/broker/rabbitmq
+go get github.com/jamandara/engine/broker/rabbitmq
 ```
 
 ## Quick Start
@@ -40,7 +40,7 @@ package main
 
 import (
     "context"
-    "github.com/mbu-id/engine/broker/rabbitmq"
+    "github.com/jamandara/engine/broker/rabbitmq"
     "go.uber.org/zap"
 )
 

@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/mbu-id/engine/broker/rabbitmq"
+	"github.com/jamandara/engine/broker/rabbitmq"
 	"go.uber.org/zap"
 )
 

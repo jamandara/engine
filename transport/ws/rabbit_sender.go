@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/mbu-id/engine/broker/rabbitmq"
+	"github.com/jamandara/engine/broker/rabbitmq"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"go.uber.org/zap"
 )

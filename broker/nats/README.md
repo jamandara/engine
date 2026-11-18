@@ -17,7 +17,7 @@ A lightweight, high-performance NATS client wrapper using [nats.go](https://gith
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/broker/nats
+go get github.com/jamandara/engine/broker/nats
 ```
 
 ## Quick Start
@@ -37,7 +37,7 @@ package main
 
 import (
     "context"
-    "github.com/mbu-id/engine/broker/nats"
+    "github.com/jamandara/engine/broker/nats"
     "go.uber.org/zap"
 )
 

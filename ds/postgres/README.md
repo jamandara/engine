@@ -18,12 +18,12 @@ A PostgreSQL database client library built on top of [Bun ORM](https://bun.uptra
 
 - [uptrace/bun](https://github.com/uptrace/bun) - SQL-first Golang ORM
 - [go.uber.org/zap](https://github.com/uber-go/zap) - Blazing fast, structured logging
-- [mbu-id/engine/common](../common) - Common interfaces and utilities
+- [jamandara/engine/common](../common) - Common interfaces and utilities
 
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/ds/postgres
+go get github.com/jamandara/engine/ds/postgres
 ```
 
 ## Quick Start
@@ -34,7 +34,7 @@ go get github.com/mbu-id/engine/ds/postgres
 package main
 
 import (
-    "github.com/mbu-id/engine/ds/postgres"
+    "github.com/jamandara/engine/ds/postgres"
     "go.uber.org/zap"
 )
 
@@ -71,7 +71,7 @@ func main() {
 package main
 
 import (
-    "github.com/mbu-id/engine/ds/postgres"
+    "github.com/jamandara/engine/ds/postgres"
     "go.uber.org/zap"
 )
 
@@ -211,7 +211,7 @@ For better code organization and to add custom methods, it's recommended to crea
 package repository
 
 import (
-    "github.com/mbu-id/engine/ds/postgres"
+    "github.com/jamandara/engine/ds/postgres"
     "github.com/uptrace/bun"
 )
 
@@ -721,8 +721,8 @@ import (
     "context"
     "log"
 
-    "github.com/mbu-id/engine/common"
-    "github.com/mbu-id/engine/ds/postgres"
+    "github.com/jamandara/engine/common"
+    "github.com/jamandara/engine/ds/postgres"
     "github.com/uptrace/bun"
     "go.uber.org/zap"
 )

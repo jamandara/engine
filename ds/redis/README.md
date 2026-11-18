@@ -18,7 +18,7 @@ A simplified Redis client wrapper based on [Redigo](https://github.com/gomodule/
 ## Installation
 
 ```bash
-go get github.com/mbu-id/engine/ds/redis
+go get github.com/jamandara/engine/ds/redis
 ```
 
 ## Quick Start
@@ -40,7 +40,7 @@ package main
 
 import (
     "context"
-    "github.com/mbu-id/engine/ds/redis"
+    "github.com/jamandara/engine/ds/redis"
     "go.uber.org/zap"
 )
 
